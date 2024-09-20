@@ -7,7 +7,9 @@ Presenting brand new Article:  In this article you will learn how to Set Up Tail
 yarn create vite my-project
 
 And follow next commands ....
-Select - React + SWC
+Select - React
+-----------and press enter---------
+Select - JavaScript + SWC
 ```
 ## 2. Install Tailwind CSS with postcss & autoprefixer
 ```bash
