@@ -5,11 +5,9 @@ Presenting brand new Article:  In this article you will learn how to Set Up Tail
 ## 1. Create a new react project with yarn
 ```bash
 yarn create vite my-project
-cd my-project
 
-Or =======================
-
-yarn create react-app react-tailwind-css-stater
+And follow next commands ....
+Select - React + SWC
 ```
 ## 2. Install Tailwind CSS with postcss & autoprefixer
 ```bash
