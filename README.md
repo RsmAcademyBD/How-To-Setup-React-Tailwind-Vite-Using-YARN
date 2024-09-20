@@ -9,7 +9,9 @@ yarn create vite my-project
 And follow next commands ....
 Select - React
 -----------and press enter---------
+
 Select - JavaScript + SWC
+-----------and press enter---------
 ```
 ## 2. Install Tailwind CSS with postcss & autoprefixer
 ```bash
