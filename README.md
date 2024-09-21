@@ -26,18 +26,8 @@ yarn tailwindcss init -p
 - Add the paths to all of your template files in your tailwind.config.js file.
 ```jsx
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-
-Or ====================
-
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },
@@ -53,17 +43,8 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 ```
-## 6. Start using Tailwind in your project
 
-- Start using Tailwind’s utility classes to style your content.
-
-```jsx
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
-```
-
-## 7. Start your build process
+## 6. Start your build process
 
 - Run your build process with npm run start.
 
